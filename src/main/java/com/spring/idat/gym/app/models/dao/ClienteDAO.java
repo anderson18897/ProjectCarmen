@@ -1,5 +1,9 @@
 package com.spring.idat.gym.app.models.dao;
 
-public interface ClienteDAO {
+import org.springframework.data.repository.CrudRepository;
+
+import com.spring.idat.gym.app.models.entity.Cliente;
+
+public interface ClienteDAO extends CrudRepository<Cliente, Integer>{
 
 }
